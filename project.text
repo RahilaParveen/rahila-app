@@ -1,0 +1,38 @@
+												Analyze the runkeeper fitness
+this app is about analyzing the different activities for a fitness keeper and keeping the record by one fitness keeper, app can tell either fitnesskeeper is progressing or not. has he reached his/her goals or not.
+
+
+I had to deploy my above project which only consits data analysis based results.I was looking for an API through which i can build an app and therefore streamlit is an API and through this API reference is organized by activity type, like displaying data or optimizing performance.
+
+1) first i loaded the dataset in python notebook for analyzing the type on information in it. 
+for this i use pandas library
+  
+ `					import pandas as pd
+and for visualization and seaborn 
+					import matplot.pyplot as plt
+					
+
+for streamlit we must ake sure about: 
+
+1)Make sure that you have Python 3.6 or greater installed.
+
+2)Install Streamlit using PIP
+3) Run the app (streamlit run name.py) 
+
+for instaling streamlit 
+			1) $ pip install streamlit
+
+FOR importing streamlit 
+			2)Create a new Python file named first_app.py, then open it with your IDE or text editor.
+
+			3)Next, import Streamlit.
+			4)import streamlit as st
+and then also iam  importing numpy and pandas for
+# working with sample data.
+import numpy as np
+import pandas as pd
+
+and then deploying on heroku.
+for deploying on heroku
+first have to be profile on github
+
