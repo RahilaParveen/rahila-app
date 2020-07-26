@@ -34,5 +34,23 @@ import pandas as pd
 
 and then deploying on heroku.
 for deploying on heroku
-first have to be profile on github
+first we must have profile on github and account on heroku website. 
 
+create repository o github and clone it somewhere on your pc
+there are four essential compoenets we need to laucnh our streamlit application on heroku
+1) setup.sh
+2) requirements,txt
+3) PROCFile
+4)application_name.py
+all these four files are avaaible to see what required to write inside thse files. 
+now through the heroku CLI i choose python app,
+then on path of that cloned repo and streamlit app placed, 
+we must logged in heroku accounnt
+make application on heroku dashboard,
+
+on terminal these commands we will type
+
+heroku login
+heroku create
+git push heroku master
+heroku open
